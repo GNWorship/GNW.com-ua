@@ -1,0 +1,480 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+body{
+    overflow-x: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 5%;
+    padding-bottom: 1000px;
+    background: rgb(0, 0, 0);
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    
+}
+.h1{
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.h2{
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+.link{
+    font-size: 120%;
+    color: rgb(255, 255, 255);
+    padding-left: 1%;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+.link:hover{
+    text-decoration: underline;
+    color:brown
+    
+}
+.h4{
+    font-size: 150%;
+    color: coral;
+    
+ font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+ .h5{
+    font-size: 110%;
+    
+}
+.h5:hover{
+    color: brown;
+}
+.block{
+    border:1px solid rgb(90, 24, 157);
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 1%;
+    padding: 1% 1% 1% 1%;
+    font-size: 100%;
+    max-width: 470px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.h6{
+
+
+   margin-left: 40%;
+}
+.h7{
+   
+    margin-left: 25%;
+}
+.h8{
+    margin-left: 10%;
+}
+.h9{
+    margin-left: 13%;
+}
+.h10{
+    margin-left: 2%;
+}
+.h11{
+    margin-left: 1%;
+}
+.h13{
+    margin-left: 2%;
+}
+.h14{
+margin-left: 12%;
+}
+.h15{
+    margin-left: 14%;
+}
+.h16{
+    margin-left: 14%;
+}
+.h17{
+    margin-left: 29%;
+}
+.h18{
+    margin-left: 26%;
+}
+.h19{
+    margin-left: 19%;
+}
+.h20{
+    margin-left: 29%;
+}
+.h21{
+    margin-left: 4%;
+}
+.h22{
+    margin-left: 17%;
+}
+.h23{
+    margin-left: 20%;
+}
+.h24{
+    margin-left: 16%;
+}  
+.h25{
+    padding-left: 5%;
+    padding-top: 1%;
+    font-size: 17px;
+    color: aliceblue;
+}
+.button {
+   margin-left: 5%;
+   margin-right: 91%;
+   margin-bottom: 5%;
+   padding-right: 1%;
+   padding-left: 1%;
+   border:1px solid rgb(255, 255, 255);
+   border-radius: 4px 4px 4px 4px;
+   color: rgb(0, 0, 0);
+}
+.button:hover{
+    border-color: brown;
+}
+.h26{
+    margin-left: 1%;
+}
+.h27{
+    margin-left: 25%;
+}
+.h28{
+    margin-left: 43%;
+}
+.b{
+    font-size: 120%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.h29{
+    margin-left: 7%;
+}
+.h30{
+    margin-left: 19%;
+}
+.h31{
+    margin-left: 1%;
+}
+.h32{
+    margin-left: 35%;
+}
+.h33{
+    margin-left: 35%;
+}
+.h34{
+    margin-left: 3%;
+}
+.h35{
+    margin-left: 13%;
+}
+.h36{
+    margin-left: 13%;
+}
+.h37{
+    margin-left: 3%;
+}
+.h38{
+    margin-left: 3%;
+}
+.h39{
+    margin-left: 16%;
+}
+.h40{
+    margin-left: 17%;
+}
+.h41{
+    margin-left: 12%;
+}
+.h42{
+    margin-left: 4%;
+}
+.h43{
+    margin-left: 12%;
+}
+.h44{
+    margin-left: 10%;
+}
+.h45{
+    margin-left: 7%;  
+}
+.h46{
+    margin-left: 13%;
+}
+.h47{
+    margin-left: 20%;
+}
+.h48{
+    margin-left: 10%;
+}
+.h49{
+    margin-left: 20%;
+}
+.h50{
+    margin-left: 23%;
+}
+.h51{
+    margin-left: 10%;
+}
+.h52{
+    margin-left: 10%;
+}
+.h53{
+    margin-left: 15%;
+}
+.h54{
+    margin-left: 25%;
+}
+.h55{
+    margin-left: 14%;
+}
+.h56{
+    margin-left:20% ;
+}
+.h57{
+    margin-left: 15%;
+}
+.h58{
+    margin-left: 23%;
+}
+.h59{
+    margin-left: 25%;
+}
+.h60{
+    margin-left: 5%;
+}
+.h61{
+    margin-left: 3%;
+}
+.h62{
+    margin-left: 3%;
+}
+.h63{
+    margin-left: 2%;
+}
+.h64{
+    margin-left: 5%;
+}
+.h65{
+    margin-left: 4%;
+}
+.h66{
+    margin-left: 4%;
+}
+.h67{
+    margin-left: 3%;
+}
+.h68{
+    margin-left: 1%;
+}
+.h69{
+    margin-left: 9%;
+}
+.h70{
+    margin-left: 3%;
+}
+.h71{
+    margin-left: 14%;
+}
+.h72{
+    margin-left: 15%;
+}
+.h73{
+    margin-left: 15%;
+}
+.h74{
+    margin-left: 20%;
+}
+.h75{
+   margin-left: 5%;
+}
+.h76{
+    margin-left: 3%;
+}
+.h77{
+    margin-left: 13%;
+}
+.h78{
+    margin-left: 2%;
+}
+.h79{
+    margin-left: 1%;
+}
+.h80{
+    margin-left: 20%;
+}
+.h81{
+    margin-left: 16%;
+}
+.h82{
+    margin-left: 13%;
+}
+.h83{
+    margin-left: 10%;
+}
+.h84{
+    margin-left: 20%;
+}
+.h85{
+    margin-left: 12%;
+}
+.h86{
+    margin-left: 37%;
+}
+.h87{
+    margin-left: 8%;
+}
+.h88{
+    margin-left: 23%;
+}
+.h89{
+    margin-left: 20%;
+}
+.h90{
+    margin-left:30% ;
+}
+.h91{
+    margin-left: 6%;
+}
+.h92{
+    margin-left: 25%;
+}
+.h93{
+    margin-left: 23%;
+}
+.h94{
+    margin-left: 10%;
+}
+.h95{
+    margin-left: 23%;
+}
+.h96{
+    margin-left:14% ;
+}
+.h97{
+    margin-left: 7%;
+}
+.h98{
+    margin-left: 14%;
+}
+.h99{
+    margin-left: 25%;
+}
+.h100{
+    margin-left: 9%;
+}
+.h101{
+    margin-left: 22%;
+}
+.h102{
+    margin-left: 14%;
+}
+.h103{
+    margin-left: 23%;
+}
+.h104{
+    margin-left: 24%;
+}
+.h105{
+    margin-left: 5%;
+}
+.h106{
+    margin-left: 10%;
+}
+.h107{
+    margin-left: 6%;
+}
+.h108{
+    margin-left: 7%;
+}
+.h109{
+    margin-left: 29%;
+}
+.h110{
+    margin-left: 2%;
+}
+.h111{
+    margin-left: 4%;
+}
+.h112{
+    margin-left: 8%;
+}
+.h113{
+    margin-left: 11%;
+}
+.h114{
+margin-left: 10%;
+}
+.h115{
+    margin-left: 7%;
+}
+.h116{
+    margin-left: 11%;
+}
+.h117{
+    margin-left: 13%;
+}
+.h118{
+    margin-left: 2%;
+}
+.h119{
+    margin-left: 12%;
+}
+.block1{
+    border:1px solid  rgb(24, 157, 60);
+    border-radius: 5px 5px 5px 5px;
+    color: azure;
+    padding: 1% 1% 1% 1%;
+    font-size: 100%;
+    max-width: 470px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+
+}
+.h120{
+    font-size: 150%;
+    color:  rgb(24, 157, 60);
+    text-align: center;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
